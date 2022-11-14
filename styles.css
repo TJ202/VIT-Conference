@@ -111,7 +111,7 @@ html {
 .outerWrap{
     padding: 1rem 3rem;
     height: 100%;
-    max-width: 70vw;
+    max-width: 80vw;
     margin: 0 auto;
     min-height: 50rem;
 }
@@ -197,4 +197,24 @@ html {
 
 .title{
     font-size: 1.2rem;
+}
+
+form {
+    min-width: 30vw;
+}
+
+.style-form{
+    width: 100%;
+    padding: 1.2rem ;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+form input[placeholder], form textarea[placeholder]{
+    font-size: 1.2rem;
+}
+
+.no-border{
+    border: none;
 }
