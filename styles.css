@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+section{
+    min-height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-bg{
+    background-color: #3E42B6;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.header{
+    background-image: url(images/image1.png);
+    background-position: center;
+    background-size: cover;
+    height: 59vh;
+    color: #fff;
+    padding: 2rem 1rem 0rem 1rem;
+    flex-direction: column;
+}
+
+.header h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 0.9rem;
+}
+
+.header p{
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sub{
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    box-shadow: 7px 10px 20px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: fit-content;
+}
+
+.counter{
+    padding: auto;
+}
+
+.wrapCounter{
+    background: linear-gradient(90deg, #2F33AB 0%, #7073D9 100%);
+    border-radius: 25px;
+    width: 900px;
+    padding: 1rem 0rem;
+    min-height: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.nolink{
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    display: block;
+}
+
+.countdown-timer-container {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 0rem 2rem;
+}
+.countdown-timer-container div {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.countdown-timer-values {
+    font-size: 3rem !important;
+}
+
+.outerWrap{
+    padding: 1rem 3rem;
+    height: 100%;
+}
+
+.text{
+    padding-right: 2.5rem;
+    text-align: justify;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text h2{
+    font-weight: 600;
+    font-size: 1.8rem !important;
+}
+.text p{
+    font-size: 0.8rem;
+}
+
+.outerWrap img {
+    height: 85vh;
+    object-fit: cover;
+}
+
+.blue-bg div{
+    flex-direction: column;
+    height: 100%;
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.para{
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.white-btn{
+    background-color: #fff;
+    color: #000;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    max-width: 25vw;
+}
+
+.cards{
+    height: auto;
+    min-width: 95vw;
+    justify-content: space-evenly;
+}
+
+.card img{
+    height: auto;
+    width: 100%;
+}
+
+.titles{
+    text-align: center;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.extra{
+    margin-top: 0.5rem;
+}
