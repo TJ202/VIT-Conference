@@ -5,8 +5,16 @@
     font-style: normal;
 }
 
-section{
-    min-height: 100vh;
+html {
+    font-size: 17px;
+}
+
+@media (max-width: 900px) {
+    html { font-size: 15px; }
+}
+
+@media (max-width: 400px) {
+    html { font-size: 13px; }
 }
 
 .flex{
@@ -31,20 +39,20 @@ section{
     background-image: url(images/image1.png);
     background-position: center;
     background-size: cover;
-    height: 59vh;
+    height: 47.5rem;
     color: #fff;
     padding: 2rem 1rem 0rem 1rem;
     flex-direction: column;
 }
 
 .header h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
-    margin-bottom: 0.9rem;
+    margin-bottom: 1.5rem;
 }
 
 .header p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 2.5rem;
     width: 80%;
     text-align: center;
@@ -58,7 +66,7 @@ section{
     border-radius: 10px;
     font-style: normal;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     width: fit-content;
 }
 
@@ -69,10 +77,11 @@ section{
 .wrapCounter{
     background: linear-gradient(90deg, #2F33AB 0%, #7073D9 100%);
     border-radius: 25px;
-    width: 900px;
+    width: 70vw;
     padding: 1rem 0rem;
-    min-height: 2rem;
-    margin: 2rem;
+    min-height: 4rem;
+    height: 7rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -85,6 +94,7 @@ section{
 
 .countdown-timer-container {
     width: 80%;
+    height: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     color: #fff;
@@ -93,21 +103,23 @@ section{
 .countdown-timer-container div {
     width: 25%;
     text-align: center;
-    font-size: 0.7rem;
 }
 .countdown-timer-values {
-    font-size: 3rem !important;
+    font-size: 4rem;
 }
 
 .outerWrap{
     padding: 1rem 3rem;
     height: 100%;
+    max-width: 70vw;
+    margin: 0 auto;
+    min-height: 50rem;
 }
 
 .text{
     padding-right: 2.5rem;
     text-align: justify;
-    height: 75vh;
+    height: 43rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -115,14 +127,14 @@ section{
 
 .text h2{
     font-weight: 600;
-    font-size: 1.8rem !important;
+    font-size: 3.2rem !important;
 }
 .text p{
-    font-size: 0.8rem;
+    font-size: 1.4rem;
 }
 
 .outerWrap img {
-    height: 85vh;
+    height: auto;
     object-fit: cover;
 }
 
@@ -132,16 +144,16 @@ section{
 }
 
 .heading{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .para{
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     color: #fff;
     text-align: justify;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .white-btn{
@@ -160,7 +172,7 @@ section{
 
 .cards{
     height: auto;
-    min-width: 95vw;
+    min-width: 100%;
     justify-content: space-evenly;
 }
 
@@ -174,11 +186,15 @@ section{
 }
 
 .name{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 600;
-    margin: 0.2rem 0;
+    margin: 0.5rem 0px;
 }
 
 .extra{
     margin-top: 0.5rem;
+}
+
+.title{
+    font-size: 1.2rem;
 }
